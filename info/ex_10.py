@@ -8,7 +8,7 @@ print(b+c)
 
 # a = "REMEMBER NOVEMBER"
 
-# a[0:3]  -> "REM"
+# a[0:3]  -> "REM"  # 1-2번째 글자 
 # a[12:16] -> "EMBE"   # 12~15번째 글자. 16은 포함되지 않아요.
 # b = a[0:3] + a[12:16]  # "REMEMBE"
 

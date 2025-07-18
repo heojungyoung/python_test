@@ -58,3 +58,13 @@ print(calc(root))
 # 13
 
         
+# def calc(node, level=0):
+    # Step 1: Handle the 'node is None' case first
+#    if node is None:
+#        return 0
+
+    # Step 2: level 홀수 나머지가 1이라는 것은 true 를 의미하므로...
+#    if level % 2 != 0: # If level is ODD
+ #       return node.value       
+#    else: # If level 짝수 해당 구문에는 다시 재귀함수로 호출함.       
+#        return 0 + sum(calc(n, level + 1) for n in node.children)
